@@ -2,8 +2,8 @@
 
 #include <Commands/CommandGroup.h>
 
-class Switch : public frc::CommandGroup {
+class Switch: public frc::CommandGroup {
 public:
-	Switch(int side);
+	Switch(int s);
 };
 

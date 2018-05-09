@@ -1,14 +1,15 @@
-#include <WPILib.h>
-#include <ntcore.h>
-
 #include <Commands/AutoCommandPaths/Nothing.h>
 #include <Commands/AutoCommandPaths/Scale.h>
 #include <Commands/AutoCommandPaths/Switch.h>
 #include <Commands/AutoCommandPaths/CrossLine.h>
 
-enum Position {
-	NoAuto, LeftPos, MiddlePos, RightPos
+#include <Subsystems/Claw.h>
+
+#ifndef ROBOTMAP_H
+#define ROBOTMAP_H
+
+class RobotMap {
+	Claw* claw;
 };
-enum Side {
-	Left = -1, Right = 1
-};
+
+#endif  // ROBOTMAP_H

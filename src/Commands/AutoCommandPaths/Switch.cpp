@@ -1,5 +1,5 @@
 #include <Commands/AutoCommandPaths/Switch.h>
 
-Switch::Switch(int side) {
+Switch::Switch(int s) {
 
 }

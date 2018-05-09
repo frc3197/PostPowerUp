@@ -91,6 +91,14 @@
                                 								
                                 <option id="gnu.cpp.link.option.libs.1363675797" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
                                     									
+                                    <listOptionValue builtIn="false" value="CTRE_Phoenix"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="CTRE_PhoenixCCI"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="CTRE_Phoenix"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="CTRE_PhoenixCCI"/>
+                                    									
                                     <listOptionValue builtIn="false" value="wpi"/>
                                     								
                                 </option>
@@ -573,6 +581,10 @@
         	
     </storageModule>
     	
-    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+        		
+        <buildTargets/>
+        	
+    </storageModule>
     
 </cproject>
